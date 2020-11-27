@@ -1,0 +1,23 @@
+{
+  "name": "confeso-blockain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
+    "start-client": "nodemon src/index-client-websocket.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.3",
+    "socket.io-client": "^3.0.3",
+    "uuid": "^8.3.1"
+  }
+}
